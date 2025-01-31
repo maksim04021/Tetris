@@ -202,7 +202,7 @@ def main_menu():
         settings = font2.render("2. Таблица лидеров", True, WHITE)
         quit = font2.render("3. Выход", True, WHITE)
         screen.blit(title, (WINDOW_WIDTH // 2 - title.get_width() // 2, WINDOW_HEIGHT // 2 - 100))
-        screen.blit(start, (WINDOW_WIDTH // 2 - start.ge3 t_width() // 2, WINDOW_HEIGHT // 2))
+        screen.blit(start, (WINDOW_WIDTH // 2 - start.get_width() // 2, WINDOW_HEIGHT // 2))
         screen.blit(settings, (WINDOW_WIDTH // 2 - settings.get_width() // 2, WINDOW_HEIGHT // 2 + 50))
         screen.blit(quit, (WINDOW_WIDTH // 2 - 100, WINDOW_HEIGHT // 2 + 100))
         pygame.display.flip()
